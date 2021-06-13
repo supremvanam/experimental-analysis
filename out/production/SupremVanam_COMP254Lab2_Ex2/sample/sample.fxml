@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <LineChart id="lineChart" fx:id="lineChart" layoutX="71.0" layoutY="26.0" title="Experimental Analysis">
+        <xAxis>
+          <CategoryAxis label="Input Size" id="x" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Time" id="y" side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>
