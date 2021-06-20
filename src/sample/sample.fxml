@@ -7,12 +7,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <LineChart id="lineChart" fx:id="lineChart" layoutX="71.0" layoutY="26.0" title="Experimental Analysis">
+      <LineChart id="lineChart" fx:id="lineChart" layoutX="71.0" layoutY="26.0">
         <xAxis>
-          <CategoryAxis label="Input Size" id="x" side="BOTTOM" />
+          <CategoryAxis id="x" label="Input Size" side="BOTTOM" />
         </xAxis>
         <yAxis>
-          <NumberAxis label="Time" id="y" side="LEFT" />
+          <NumberAxis id="y" label="Time" side="LEFT" />
         </yAxis>
       </LineChart>
    </children>

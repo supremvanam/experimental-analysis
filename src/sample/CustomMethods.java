@@ -2,7 +2,7 @@ package sample;
 
 import java.util.Random;
 
-class PrefixAverage {
+class CustomMethods {
 
     /** Replace the below method with your own method. Refactor the name so it'll change in the Controller.initialize() as well. */
     /** Returns an array a such that, for all j, a[j] equals the average of x[0], ..., x[j]. */

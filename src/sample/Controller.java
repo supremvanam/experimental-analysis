@@ -21,7 +21,7 @@ public class Controller implements Initializable {
         System.out.println("<----------- Prefix Average 1 ----------->");
         for (int i = 0; i<trials; i++) {
             long startTime = System.currentTimeMillis();
-            PrefixAverage.prefixAverage1(PrefixAverage.inputSize(n));
+            CustomMethods.prefixAverage1(CustomMethods.inputSize(n));
             long endTime = System.currentTimeMillis();
             long elapsed = endTime-startTime;
             System.out.println("Array with "+n+ " items took "+elapsed+" milliseconds");
@@ -35,7 +35,7 @@ public class Controller implements Initializable {
         System.out.println("<----------- Prefix Average 2 ----------->");
         for (int i = 0; i<trials; i++) {
             long startTime = System.currentTimeMillis();
-            PrefixAverage.prefixAverage2(PrefixAverage.inputSize(n));
+            CustomMethods.prefixAverage2(CustomMethods.inputSize(n));
             long endTime = System.currentTimeMillis();
             long elapsed = endTime-startTime;
             System.out.println("Array with "+n+ " items took "+elapsed+" milliseconds");
