@@ -9,7 +9,6 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
 
-
     @FXML
     LineChart<String, Number> lineChart;
 
