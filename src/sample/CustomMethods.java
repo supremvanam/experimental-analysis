@@ -4,7 +4,7 @@ import java.util.Random;
 
 class CustomMethods {
 
-    /** Replace the below method with your own method. Refactor the name so it'll change in the Controller.initialize() as well. */
+    // Replace the below method with your own method. Refactor the name so it'll change in the Controller.initialize() as well.
     /** Returns an array a such that, for all j, a[j] equals the average of x[0], ..., x[j]. */
     public static double[] prefixAverage1(double[] x) {
         int n = x.length;
@@ -18,7 +18,7 @@ class CustomMethods {
         return a;
     }
 
-    /** Replace the below method with your own method. Refactor the name so it'll change in the Controller.initialize() as well. */
+    // Replace the below method with your own method. Refactor the name so it'll change in the Controller.initialize() as well.
     /** Returns an array a such that, for all j, a[j] equals the average of x[0], ..., x[j]. */
     public static double[] prefixAverage2(double[] x) {
         int n = x.length;
